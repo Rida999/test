@@ -6,8 +6,8 @@ function App() {
     <div
       style={{
         display: "flex",
-        height: "100vh",
-        width: "100vw",
+        minHeight: "100vh",
+        minWidth: "100vw",
       }}
     >
       <Left />
