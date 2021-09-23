@@ -1,11 +1,15 @@
 const Left = () => {
-    return ( 
-        <nav>
-            <div className="w-24 h-40 block bg-black">
+  return (
+    <nav
+      style={{
+        alignSelf: "stretch",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      <div style={{ height: "100%" }} className="w-24 block bg-black"></div>
+    </nav>
+  );
+};
 
-            </div>
-        </nav>
-     );
-}
- 
 export default Left;
