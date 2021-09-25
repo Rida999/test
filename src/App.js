@@ -1,5 +1,5 @@
-import Blogs from "./components/blogs";
 import Left from "./components/leftmenu";
+import Total from "./components/total";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       }}
     >
       <Left />
-      <Blogs />
+      <Total />
     </div>
   );
 }

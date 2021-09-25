@@ -1,22 +1,11 @@
+import Each from "./eachblog";
+
 const Blogs = () => {
   return (
-    <div style={{ flex: 1 }}>
-      <div className="m-auto max-h-36 max-w-sm items-center flex rounded-lg shadow-xl bg-white mt-32">
-        <div className="my-4 mx-7">
-          <img
-            className="h-24 w-24 mt-5 rounded-full shadow-md object-cover object-top"
-            src="https://i.pinimg.com/564x/74/fb/ae/74fbae9715ab886eb7321d68fdc71e47.jpg"
-            alt="womans face"
-          />
-        </div>
-        <div className="flex flex-col h-28 mr-4">
-          <h1 className="font-bold text-lg">Erin Lindford</h1>
-          <h2 className="text-base text-gray-400">Product Engineer</h2>
-          <button className="rounded-full text-purple-600 font-semibold border-2 w-24 h-7 hover:text-white hover:bg-purple-600 hover:border-transparent">
-            Message
-          </button>
-        </div>
-      </div>
+    <div style={{ flex: 1,maxHeight:"50%" }}>
+      <Each name="Andrew Tekli" job="Dentist" alt="dentist img" img="https://images.squarespace-cdn.com/content/v1/5269fbd3e4b0eb2b76ccc1db/1582313117687-0T3XFNHLID9962LQLHIQ/how-to-become-a-dentist.jpg"/>
+      <Each name="Erin Richard" job="Product Engineer" alt="product engineer img" img="https://i.pinimg.com/564x/74/fb/ae/74fbae9715ab886eb7321d68fdc71e47.jpg"/>
+      <Each name="Ibraham Nara" job="Surgeon" alt="surgeon img" img="https://s3-us-west-2.amazonaws.com/melingoimages/Images/93969.jpg" />
     </div>
   );
 };
